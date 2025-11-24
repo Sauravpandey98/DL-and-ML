@@ -1,0 +1,12 @@
+define greetings
+  "Hi!",
+  "Hello!",
+  "Hi there",
+  "Hey"
+
+define bot greet 
+  "Hi there!, I am insurance helper 👋,you can ask me anything you want regarding your insurace queries"
+
+define flow
+    user ask greetings
+    bot explain greetings
